@@ -62,6 +62,17 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+::selection {
+  color: #FEEED6;
+  background: #290f00;
+}
+img::selection{
+  background: none;
+}
+.button::selection{
+  color: #FEC51C;
+
+}
 html {
   scroll-behavior: smooth;
 }
